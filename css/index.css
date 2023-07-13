@@ -1,0 +1,65 @@
+/* @import '../font/Avenir Next Condensed.ttc';
+@import '../font/Avenir Next.ttc';
+@import '../font/Avenir.ttc';
+@import '../font/AvenirLTStd-Black.otf';
+@import '../font/AvenirLTStd-Book.otf';
+@import '../font/AvenirLTStd-Roman.otf'; */
+@import '/css/icons.css';
+@import '/css/fonts.css';
+@import './link.css';
+@import './body.css';
+@import './button-icon.css';
+@import './sidebar.css';
+@import './ellipsis.css';
+@import './player.css';
+@import './page.css';
+@import './layout.css';
+@import './scrollbar.css';
+
+/* @font-face {
+  font-family: 'Avenir';
+  src: url("../font/AvenirLTStd-Roman.otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+:root { 
+  font-size: 14px;
+  --primary:#00b050; 
+  --white: #ffffff; 
+  --gray10: #b3b3b3; 
+  --gray20: #737373; 
+  --gray30: #282828; 
+  --gray40: #181818; 
+  --gray50: #121212; 
+  --gray60: #000000;
+  --basefontFamily: Avenir;
+  --headline1: 900 2rem/normal var(--basefontFamily); 
+  --headline2: bold 1.5rem/1.75rem var(--basefontFamily);
+  --button: 500 0.875rem/1rem var(--basefontFamily);
+  --subtitle2: normal 0.75rem/normal var(--basefontFamily);
+  --smallfont: normal 0.65625rem/normal var(--basefontFamily);
+  --basefont-normal: normal 0.875rem/1.375rem var(--basefontFamily);
+  --basefont-bold: 900 0.875rem/1.375rem var(--basefontFamily);
+  --small: normal .75em/normal var (var(--basefontFamily) )
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 16px;
+}
+  }
+
+@media screen and (min-width: 1367px){
+  :root {
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+
+
